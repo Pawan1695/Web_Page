@@ -1,0 +1,79 @@
+*{margin: 0;padding: 0px;box-sizing: border-box;}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(56, 53, 53);
+    width: 1200px;margin: auto;
+}
+  .container{border-left:3px solid rgb(31, 29, 29);
+    border-right:3px solid rgb(31, 29, 29);
+    background-color: rgb(22, 21, 21);
+    padding: 0px 50px 20px 50px}
+
+.wrap-1 h1 {color: #fff;padding: 10px 0px 20px 0px}
+
+.nav{border: 1px solid black;padding: 10px; background: black;padding-bottom: 26px;}
+
+.nav ul li{list-style-type: none;
+     float: left;
+     line-height: 20px;}
+
+.nav ul li a{text-decoration: none;
+     display: block;
+      padding-right: 40px; 
+      color: #fff;}
+
+.wrap-2{background-color: #fff;
+    padding: 0 53px;}
+
+.logo img{width: 100%;margin-top: 25px;}
+
+.para{
+    border: 1px solid #bdb4b4b8;
+    background-color: #bdb4b4b8;
+    padding: 14px;
+    line-height: 22px;
+    color: rgb(80, 79, 79);
+    margin: 30px 0px;
+}
+
+.wrap-2 h2{
+    color: grey;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    
+}
+.section{padding-bottom: 20px;}
+
+.section .caption{
+    border: 1px solid grey;
+    margin: auto;
+    
+    
+}
+
+.caption img{
+    display: block;
+    padding: 2px 2px 0px 2px;
+}
+
+.caption  p{
+  
+    background-color: rgb(201, 195, 195);
+    text-align: center;
+    line-height: 25px;
+}
+
+
+.wrap-3{
+    background-color: rgb(22, 21, 21);
+    padding: 0px 50px;
+}
+.footer p{color: #908d8d;
+    line-height: 40px;}
